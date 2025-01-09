@@ -1,0 +1,7 @@
+tensorflow
+numpy
+opencv-python
+gdal
+patchify
+scikit-learn
+argparse
