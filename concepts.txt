@@ -1,0 +1,81 @@
+# Definitions of Key Concepts
+
+## 1. Deep Learning
+Deep learning is a subset of machine learning that uses artificial neural networks with multiple layers to model complex patterns in data. It is widely used in fields such as computer vision, natural language processing, and disaster management for tasks like image segmentation and object detection.
+
+---
+
+## 2. Image Segmentation
+Image segmentation is a technique in computer vision where an image is divided into multiple regions or objects. This is crucial for identifying specific areas of interest, such as flood-affected zones in satellite imagery.
+
+### Types of Image Segmentation
+- **Semantic Segmentation**: Assigns a label to every pixel, grouping regions with similar properties.
+- **Instance Segmentation**: Identifies individual objects within an image.
+- **Panoptic Segmentation**: Combines both semantic and instance segmentation.
+
+---
+
+## 3. U-Net
+U-Net is a convolutional neural network architecture designed for image segmentation. It uses an encoder-decoder structure with skip connections to achieve high accuracy, especially in tasks requiring precise localization.
+
+---
+
+## 4. DeepLabv3+
+DeepLabv3+ is an advanced image segmentation model that uses atrous convolutions and an encoder-decoder structure to handle complex tasks. It excels at capturing multi-scale contextual information and is particularly effective for boundary precision.
+
+---
+
+## 5. Dice Coefficient
+The Dice Coefficient is a metric used to measure the similarity between two sets. In segmentation tasks, it evaluates the overlap between predicted masks and ground truth masks. The formula is:
+\[
+Dice = \frac{2 \cdot |A \cap B|}{|A| + |B|}
+\]
+
+---
+
+## 6. Jaccard Index (IoU)
+The Jaccard Index, also called Intersection over Union (IoU), measures the overlap between predicted and true segmentation masks. The formula is:
+\[
+IoU = \frac{|A \cap B|}{|A \cup B|}
+\]
+
+---
+
+## 7. Sentinel-1 Satellite Imagery
+Sentinel-1 is a European satellite mission that provides high-resolution radar imagery. It is widely used for environmental monitoring, including flood mapping and disaster management.
+
+### Key Features
+- Operates in all weather conditions.
+- Provides dual polarization (VV and VH).
+- High spatial resolution.
+
+---
+
+## 8. Google Earth Engine (GEE)
+Google Earth Engine is a cloud-based platform for processing and analyzing geospatial data. It simplifies tasks like preprocessing satellite imagery and extracting useful features.
+
+---
+
+## 9. Convolutional Neural Network (CNN)
+A CNN is a type of neural network that excels at analyzing visual data. It uses convolutional layers to detect features like edges and textures in images. CNNs are the backbone of models like U-Net and DeepLabv3+.
+
+---
+
+## 10. Patchify
+Patchify is a Python library used to divide large images into smaller, manageable patches. This is essential for training deep learning models on high-resolution images.
+
+---
+
+## 11. Transfer Learning
+Transfer learning involves using a pre-trained model as a starting point for a new task. For example, models trained on ImageNet can be fine-tuned for segmentation tasks in disaster management.
+
+---
+
+## 12. Binary Cross-Entropy Loss
+This is a loss function used for binary classification tasks. It measures the difference between predicted probabilities and actual labels, making it ideal for segmentation tasks with binary masks.
+
+---
+
+## 13. Adam Optimizer
+The Adam optimizer is an algorithm for gradient-based optimization. It adapts learning rates for each parameter, improving training efficiency and stability.
+
